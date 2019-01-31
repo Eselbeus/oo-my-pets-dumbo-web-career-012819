@@ -67,8 +67,8 @@ class Owner
         # binding.pry
       end
     end
-    self.@pets
-    # binding.pry
+    @pets
+    binding.pry
   end
   
   
