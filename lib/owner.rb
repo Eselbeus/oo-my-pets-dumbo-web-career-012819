@@ -70,5 +70,9 @@ class Owner
     @pets
   end
   
+  def list_pets
+    "I have #{self.@pets[:fishes]}"
+  end
+  
   
 end
