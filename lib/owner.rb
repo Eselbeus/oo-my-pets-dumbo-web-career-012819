@@ -10,7 +10,7 @@ class Owner
   
   def initialize(species)
     @species = species
-    @pets = {}
+    @pets = {:fishes => [], :dogs => [], :cats => []}
     
     @@all << self
     @@count += 1
@@ -30,11 +30,7 @@ class Owner
     "I am a #{@species}."
   end
   
-  def pets
-    @pets = {:fishes => [], :dogs => [], :cats => []}
-    binding.pry
-  end
-  binding.pry
+  # binding.pry
   def buy_fish
     # binding.pry
     @pets[:fishes] << Fish.new(name)
