@@ -29,11 +29,11 @@ class Owner
   def say_species
     "I am a #{@species}."
   end
-  binding.pry
+  
   def pets
     @pets = {:fishes => [], :dogs => [], :cats => []}
   end
-
+  binding.pry
   def buy_fish
     # binding.pry
     @pets[:fishes] << Fish.new(name)
