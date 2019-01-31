@@ -64,10 +64,9 @@ class Owner
     @pets.each do |type, pet|
       pet.each do |animal|
         animal.mood = "nervous"
-        # binding.pry
       end
     end
-    @pets
+    @pets = @pets = {:fishes => [], :dogs => [], :cats => []}
   end
   
   def list_pets
