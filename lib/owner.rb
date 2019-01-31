@@ -30,13 +30,8 @@ class Owner
     "I am a #{@species}."
   end
   
-  # binding.pry
   def buy_fish(name)
-    # binding.pry
     @pets[:fishes] << Fish.new(name)
-    # binding.pry
-    # self.pets[:fishes]
-    # Fish.name
   end
   
   
