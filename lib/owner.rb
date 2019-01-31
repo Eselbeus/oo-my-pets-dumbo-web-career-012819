@@ -35,7 +35,6 @@ class Owner
   end
   
   def buy_cat(name)
-    binding.pry
     @pets[:cat] << Cat.new(name)
   end
   
