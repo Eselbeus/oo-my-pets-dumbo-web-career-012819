@@ -67,6 +67,7 @@ class Owner
         binding.pry
       end
     end
+    @pets
   end
   
   
